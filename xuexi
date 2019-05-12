@@ -46,7 +46,7 @@ pip3 install qrcode
 echo "\033[1;31m>Python运行环境安装完成！\033[0m"
 sleep 3s
 echo "\033[1;31m>准备安装熊猫学习强国！\033[0m"
-wget http://api.xdw6.cn/xuexi/root.zip
+wget https://raw.githubusercontent.com/DyingLight12/Android_Learning/master/root.zip?token=ALLKSTZLNBTET3BJRLAZQUS43AU24
 chmod 777 root.zip
 apt install unzip -y
 unzip root.zip
