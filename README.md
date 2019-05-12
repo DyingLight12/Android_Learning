@@ -34,7 +34,7 @@ PS：最好还要有一定的Linux基础。
 
 1.下载一键安装脚本:
 
-wget http://api.xdw6.cn/xuexi/install_system
+wget https://raw.githubusercontent.com/DyingLight12/Android_Learning/master/install_system
 
 2.运行脚本：
 
@@ -52,7 +52,7 @@ chmod 777 install_system
 
 1.在Ubuntu系统中，输入指令下载安装脚本
 
-wget http://api.xdw6.cn/xuexi/xuexi
+wget https://raw.githubusercontent.com/DyingLight12/Android_Learning/master/xuexi
 
 2.运行脚本
 
