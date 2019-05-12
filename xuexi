@@ -53,7 +53,7 @@ sleep 3s
 echo "\033[1;31m>全部安装完成，请按↑键＋回车开始学习！\033[0m"
 elif [ $aa = "2" ] ; then   
 echo "\033[1;31m>正在启动学习强国！请稍后！\033[0m"
-qr https://dwz.cn/G50qki3x
+qr https://t.me/joinchat/NJZUSEwODgLQfe5oG8ZRlg
 echo "\033[1;31m扫描二维码加入电报群！\033[0m"
 sleep 3s
 python3 pandalearning.py 
