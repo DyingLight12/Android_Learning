@@ -38,7 +38,7 @@ sleep 3s
 wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh
 echo -e "\033[1;31m>系统安装完成！\033[0m"
 sleep 3s
-echo -e "\033[1;31m>请按↑键＋回车启动Ubuntu系统\033[0m"
+echo -e "\033[1;31m>请输入 sh install_system 启动Ubuntu系统\033[0m"
 elif [ $aa = "3" ] ; then
 echo 
 echo -e "\033[1;31m正在卸载Ubuntu系统\033[0m"
