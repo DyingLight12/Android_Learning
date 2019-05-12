@@ -29,21 +29,13 @@ echo "\033[1;31m>启动系统成功！\033[0m"
 ./start-ubuntu.sh
 echo "\033[1;31m>已退出Ubuntu系统！\033[0m"
 elif [ $aa = "2" ] ; then   
-echo "\033[1;31m>正在准备更新源！请稍后！\033[0m"
-sleep 3s
-pkg update -y
-sleep 3s
-echo "\033[1;31m>更新源完成！\033[0m"
-sleep 3s
 echo "\033[1;31m>获取存储权限(请允许)！\033[0m"
 sleep 3s
 termux-setup-storage
-echo "\033[1;31m>准备安装基础工具！\033[0m"
 sleep 3s
-pkg install vim curl wget git unzip unrar
 echo "\033[1;31m>准备安装Ubuntu系统!\033[0m" 
 sleep 3s
-pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh
+wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh
 echo "\033[1;31m>系统安装完成！\033[0m"
 sleep 3s
 echo "\033[1;31m>请按↑键＋回车启动Ubuntu系统\033[0m"
