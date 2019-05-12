@@ -23,26 +23,26 @@ echo
 echo -n -e "\033[1;35m>请输入对应数字:\033[0m"
 read aa
 if [ $aa = "1" ] ; then 
-echo "\033[1;31m>正在准备更新源！请稍后！\033[0m"
+echo -e "\033[1;31m>正在准备更新源！请稍后！\033[0m"
 sleep 3s
 apt update -y
 sleep 3s
-echo "\033[1;31m>更新源完成！\033[0m"
+echo -e "\033[1;31m>更新源完成！\033[0m"
 sleep 3s
-echo "\033[1;31m>准备安装浏览器工具！\033[0m"
+echo -e "\033[1;31m>准备安装浏览器工具！\033[0m"
 sleep 3s
 apt install chromium-chromedriver -y
-echo "\033[1;31m>安装安装浏览器工具完成！\033[0m"
+echo -e "\033[1;31m>安装安装浏览器工具完成！\033[0m"
 sleep 3s
-echo "\033[1;31m>准备安装Python3运行环境!\033[0m" 
+echo -e "\033[1;31m>准备安装Python3运行环境!\033[0m" 
 sleep 3s
 apt install python3-pip -y
 pip3 install selenium
 pip3 install requests
 pip3 install qrcode
-echo "\033[1;31m>Python运行环境安装完成！\033[0m"
+echo -e "\033[1;31m>Python运行环境安装完成！\033[0m"
 sleep 3s
-echo "\033[1;31m>准备安装熊猫学习强国！\033[0m"
+echo -e "\033[1;31m>准备安装熊猫学习强国！\033[0m"
 wget https://raw.githubusercontent.com/DyingLight12/Android_Learning/master/root.zip
 chmod 777 root.zip
 apt install unzip -y
@@ -50,11 +50,11 @@ unzip root.zip
 cp /usr/lib/chromium-browser/chromedriver /root/
 chmod -R 777 /root
 sleep 3s
-echo "\033[1;31m>全部安装完成，请按↑键＋回车开始学习！\033[0m"
+echo -e "\033[1;31m>全部安装完成，请输入 sh xuexi.sh 开始学习！\033[0m"
 elif [ $aa = "2" ] ; then   
-echo "\033[1;31m>正在启动学习强国！请稍后！\033[0m"
+echo -e "\033[1;31m>正在启动学习强国！请稍后！\033[0m"
 qr https://t.me/joinchat/NJZUSEwODgLQfe5oG8ZRlg
-echo "\033[1;31m扫描二维码加入电报群！\033[0m"
+echo -e "\033[1;31m扫描二维码加入电报群！\033[0m"
 sleep 3s
 python3 pandalearning.py 
 
