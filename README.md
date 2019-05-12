@@ -48,19 +48,13 @@ pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubuser
 
 1.在Ubuntu系统中，输入指令下载安装脚本
 
-wget https://raw.githubusercontent.com/DyingLight12/Android_Learning/master/xuexi
-
-2.运行脚本
-
-chmod 777 xuexi
-
-./xuexi
+wget https://raw.githubusercontent.com/DyingLight12/Android_Learning/master/xuexi.sh && bash xuexi.sh
 
 3.在脚本界面输入1开始一键安装
 
 安装过程有些漫长  请耐心等待。。。
 
-安装完成后 可以按提示操作  也可以用  ./xuexi  指令启用脚本，输入 2 回车  开始学习qiangguo啦
+安装完成后 可以按提示操作  用  sh xuexi.sh  指令启用脚本，输入 2 回车  开始学习qiangguo啦
 
 PS：是否保存账号输入Y  后 回车
 
@@ -72,13 +66,13 @@ PS：是否保存账号输入Y  后 回车
 
 Termux界面输入
 
-./install_system
+sh install_system.sh
 
 输入1启动系统
 
 Ubuntu系统界面输入
 
-./xuexi
+sh xuexi.sh
 
 输入2启动熊猫学习
 
