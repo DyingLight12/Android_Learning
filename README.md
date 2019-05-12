@@ -52,7 +52,7 @@ sh install_system.sh
 
 1.在Ubuntu系统中，输入指令下载安装脚本
 
-wget https://raw.githubusercontent.com/DyingLight12/Android_Learning/master/xuexi.sh && bash xuexi.sh
+hash -r && wget https://raw.githubusercontent.com/DyingLight12/Android_Learning/master/xuexi.sh && bash xuexi.sh
 
 3.在脚本界面输入1开始一键安装
 
