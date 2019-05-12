@@ -40,7 +40,11 @@ pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubuser
 
 输入2后按回车键自动安装系统，我全程挂VPN，一次成功，安装过程中会有提示（Y/N），一律全部输入Y后按回车键，中途提示获取手机存储权限请点击允许。没有点击允许的请自行到手机安全中心开启存储权限。
 
-安装完成后通过 sh install_system.sh 再次进入脚本  输入1启动系统。
+安装完成后通过 
+
+sh install_system.sh
+
+再次进入脚本  输入1启动系统。
 
 系统启动成功后 前面用户标识  $ 符号会变为 # 符合 用来区分是否为Ubuntu系统。
 
@@ -54,7 +58,13 @@ wget https://raw.githubusercontent.com/DyingLight12/Android_Learning/master/xuex
 
 安装过程有些漫长  请耐心等待。。。
 
-安装完成后 可以按提示操作  用  sh xuexi.sh  指令启用脚本，输入 2 回车  开始学习qiangguo啦
+安装完成后 可以按提示操作
+
+sh xuexi.sh
+
+指令启用脚本
+
+输入 2 回车  开始学习qiangguo啦
 
 PS：是否保存账号输入Y  后 回车
 
