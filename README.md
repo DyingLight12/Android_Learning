@@ -27,7 +27,9 @@ PS：最好还要有一定的Linux基础。
 下载地址：https://raw.githubusercontent.com/DyingLight12/Android_Learning/master/Termux.apk
 
 这会进入短暂的安装中。。。。。。。。。。
+
 第二步：开始安装Ubuntu操作系统
+
 复制下面的指令，每次只能复制一条，按回车键运行，按顺序操作
 
 1.下载一键安装脚本:
@@ -39,3 +41,49 @@ wget http://api.xdw6.cn/xuexi/install_system
 chmod 777 install_system
 
 ./install_system
+
+输入2后按回车键自动安装系统，我全程挂VPN，一次成功，安装过程中会有提示（Y/N），一律全部输入Y后按回车键，中途提示获取手机存储权限请点击允许。没有点击允许的请自行到手机安全中心开启存储权限。
+
+安装完成后通过 ./install_system 再次进入脚本  输入1启动系统。
+
+系统启动成功后 前面用户标识  $ 符号会变为 # 符合 用来区分是否为Ubuntu系统。
+
+第三步：一键安装熊猫学习
+
+1.在Ubuntu系统中，输入指令下载安装脚本
+
+wget http://api.xdw6.cn/xuexi/xuexi
+
+2.运行脚本
+
+chmod 777 xuexi
+
+./xuexi
+
+3.在脚本界面输入1开始一键安装
+
+安装过程有些漫长  请耐心等待。。。
+
+安装完成后 可以按提示操作  也可以用  ./xuexi  指令启用脚本，输入 2 回车  开始学习qiangguo啦
+
+PS：是否保存账号输入Y  后 回车
+
+到此安装完成
+
+登录学习  不能挂VPN  否则 登陆失败
+
+下次运行学习强国只需要输入以下命令
+
+Termux界面输入
+
+./install_system
+
+输入1启动系统
+
+Ubuntu系统界面输入
+
+./xuexi
+
+输入2启动熊猫学习
+
+到此完成教程！
