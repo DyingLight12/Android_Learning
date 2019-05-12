@@ -25,20 +25,20 @@ echo
 echo -n -e "\033[1;35m>请输入对应数字:\033[0m"
 read aa
 if [ $aa = "1" ] ; then 
-echo "\033[1;31m>启动系统成功！\033[0m"
+echo -e "\033[1;31m>启动系统成功！\033[0m"
 ./start-ubuntu.sh
-echo "\033[1;31m>已退出Ubuntu系统！\033[0m"
+echo -e "\033[1;31m>已退出Ubuntu系统！\033[0m"
 elif [ $aa = "2" ] ; then   
-echo "\033[1;31m>获取存储权限(请允许)！\033[0m"
+echo -e "\033[1;31m>获取存储权限(请允许)！\033[0m"
 sleep 3s
 termux-setup-storage
 sleep 3s
-echo "\033[1;31m>准备安装Ubuntu系统!\033[0m" 
+echo -e "\033[1;31m>准备安装Ubuntu系统!\033[0m" 
 sleep 3s
 wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh
-echo "\033[1;31m>系统安装完成！\033[0m"
+echo -e "\033[1;31m>系统安装完成！\033[0m"
 sleep 3s
-echo "\033[1;31m>请按↑键＋回车启动Ubuntu系统\033[0m"
+echo -e "\033[1;31m>请按↑键＋回车启动Ubuntu系统\033[0m"
 elif [ $aa = "3" ] ; then
 echo 
 echo -e "\033[1;31m正在卸载Ubuntu系统\033[0m"
