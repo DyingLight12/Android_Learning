@@ -24,6 +24,10 @@ PS：最好还要有一定的Linux基础。
 
 本次教程采用的是Ubuntu的ARM64版操作系统，理论上所有Ubuntu操作系统都可以。
 
+一次性完成安装过程完整视频
+链接:https://pan.baidu.com/s/1K1n9dA8mQBouXm2jidn5fw 提取码:g48v 
+
+
 第一步：下载安装Termux汉化版
 
 下载地址：https://raw.githubusercontent.com/DyingLight12/Android_Learning/master/Termux.apk
